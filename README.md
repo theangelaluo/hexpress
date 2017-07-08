@@ -93,7 +93,7 @@ requests where the URL is exactly `url` (excluding the query string).
 
 ### Verification
 
-Run `node exercise1.js` and verify that all routes in `exercise1.js` work correctly. Read the comments in `exercise1.js`, they specify the expected behavior of all routes.
+Run `node part1.js` and verify that all routes in `part1.js` work correctly. Read the comments in `part1.js`, they specify the expected behavior of all routes.
 
 `GET /query` should parse the whole query string (something like the following):
 
@@ -133,7 +133,7 @@ requests where the URL is exactly `url` (excluding the query string).
 
 ### Verification
 
-Run `node exercise2.js` and verify that all routes in `exercise2.js` work correctly. Read the comments in `exercise2.js`, they specify the expected behavior of all routes.
+Run `node part2.js` and verify that all routes in `part2.js` work correctly. Read the comments in `part2.js`, they specify the expected behavior of all routes.
 
 ## Part 3: `.use(routePrefix, callback)`
 
@@ -150,7 +150,7 @@ the URL starts with `routePrefix`.
 
 ### Verification
 
-Run `node exercise3.js` and verify that all routes in `exercise3.js` work correctly. Read the comments in `exercise3.js`, they specify the expected behavior of all routes.
+Run `node part3.js` and verify that all routes in `part3.js` work correctly. Read the comments in `part3.js`, they specify the expected behavior of all routes.
 
 ## Part 4: `res.render(name, options)`
 
@@ -181,7 +181,7 @@ Continue work on `hexpress/hexpress.js`. Add the `.render()` method to `res`:
 
 ### Verification
 
-Run `node exercise4.js` and verify that all routes in `exercise4.js` work correctly. Read the comments in `exercise4.js`, they specify the expected behavior of all routes.
+Run `node part4.js` and verify that all routes in `part4.js` work correctly. Read the comments in `part4.js`, they specify the expected behavior of all routes.
 
 ## Part 5: `req.params`
 
@@ -197,8 +197,8 @@ Continue work on `hexpress/hexpress.js`. Add compatibility for using params to `
 
 ### Verification
 
-Run `node exercise5.js` and verify that all routes in `exercise5.js` work
-correctly. Read the comments in `exercise5.js`, they specify the expected
+Run `node part5.js` and verify that all routes in `part5.js` work
+correctly. Read the comments in `part5.js`, they specify the expected
 behavior of all routes.
 
 ## Bonus Part 6: `next()` inside route
