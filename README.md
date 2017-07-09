@@ -74,7 +74,7 @@ requests where the URL is exactly `url` (excluding the query string).
 
     1. `req.query` is an object that maps query parameters to values.
 
-        *Use:** `req.url` and the Node built-in
+        **Use:** `req.url` and the Node built-in
         [`querystring`](https://nodejs.org/api/querystring.html)
         library to parse the part of the URL after the question mark `?`.
 
