@@ -204,24 +204,11 @@ behavior of all routes.
 ## Bonus Part 6: `next()` inside route
 
 The `next` method passes control to the next **matching** route. Implement
-functionality for the use of the `next()` function. To see a working example of
-how the `next()` function works try the following:
+functionality for the use of the `next()` function.
 
-```javascript
-var app = require("express")();
+### Verification
 
-app.get("/", function(req, res, next){
-    res.write("Hello");
-    next(); //remove this and see what happens
-});
-
-app.get("/", function(req, res, next){
-    res.write(" World !!!");
-    res.end();
-});
-
-app.listen(8080);
-```
+Run `node part6.js` and verify that all routes in `part6.js` work correctly. Read the comments in `part6.js`, they specify the expected behavior of all routes.
 
 ## Double Bonus Part 7: `res.render()` with Layouts
 
