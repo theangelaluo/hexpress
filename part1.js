@@ -28,3 +28,4 @@ app.get('/query', function(req, res) {
 // You should see {"hello":"3","yolo":"12345678"}
 
 app.listen(3000);
+console.log('listening on port 3000');
